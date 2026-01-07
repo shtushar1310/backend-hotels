@@ -1,7 +1,7 @@
 const mongoose=require('mongoose')
 require('dotenv').config()
-//const monogoUrl='mongodb://localhost:27017/hotels'
-const monogoUrl=process.env.MONGO_URI
+const monogoUrl='mongodb://localhost:27017/hotels'
+//const monogoUrl=process.env.MONGO_URI
 
 mongoose.connect(monogoUrl)
 
